@@ -1,0 +1,11 @@
+"Check","Value"
+"Mean R² - Territorial",0.392
+"Mean R² - Consumption",0.336
+"% States with R² > 0.5 - Territorial",46
+"% States with R² > 0.5 - Consumption",26
+"% Significant elasticities - Territorial",52
+"% Significant elasticities - Consumption",40
+"Territorial outliers (>2 SD)",1
+"Consumption outliers (>2 SD)",2
+"States improving 2012-15 to 2016-19 (Territorial)",21
+"States improving 2012-15 to 2016-19 (Consumption)",36
