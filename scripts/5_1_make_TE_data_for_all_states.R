@@ -1,12 +1,9 @@
-#setwd('C:/Users/annec/Downloads/useeio/prod_data')
-setwd(getwd())
-
 ## make TE (teritorial emissions) data for all states
 #  prereq: have all 50 Greenhouse Gas Inventory data saved as 'state'_TE.csv
 
 
-# Define path
-path <- "C:/Users/alaitzaritza/Desktop/Josef_USEEIO-State/prod_data"
+# Define path as location with 'state'_TE.csv' for all states
+path <- "..."
 
 
 # Get all *_TE.csv files in the folder
@@ -34,6 +31,7 @@ TE <- cbind(State = rownames(TE), TE)
 # download as excel
 # library(writexl)
 # write_xlsx(TE, path)
+
 
 
 
